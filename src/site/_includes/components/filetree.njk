@@ -1,3 +1,12 @@
+{# 1. Define tus alias al principio del archivo (afuera del macro) #}
+{% set folderAliases = {
+    "Root": "Inicio",
+    "Beats-Vault": "Mi Jardín",
+    "Projects": "Proyectos",
+    "Systems": "Sistemas"
+} %}
+
+
 {% macro menuItem(fileOrFolderName, fileOrFolder, step, currentPath) %}
     {%if fileOrFolder.isNote or fileOrFolder.isFolder%}
         <div x-show="isOpen" style="display:none" class="{{'filelist' if step>0}}">
@@ -11,16 +20,8 @@
                     <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
                     <i x-show="!isOpen"  data-lucide="chevron-right"></i>
                     <span class="foldername">
-
-                {# Lógica Maestra: Si el folder tiene un archivo de configuración con título, úsalo #}
-                {% if fileOrFolder.title %}
-                    {{ fileOrFolder.title }}
-                {% else %}
-                    {{ fileOrFolderName }}
-                {% endif %}
-                   # {{fileOrFolderName}}
-
-
+                        {# Buscamos si el nombre del folder tiene un alias, si no, dejamos el original #}
+                        {{ folderAliases[fileOrFolderName] if folderAliases[fileOrFolderName] else fileOrFolderName }}
                     </span>
                     </div>
                     {% for fileOrFolderName, child in fileOrFolder %}

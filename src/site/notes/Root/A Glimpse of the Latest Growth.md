@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/root/a-glimpse-of-the-latest-growth/","title":"Esto es una prueba","noteIcon":""}
+{"dg-publish":true,"permalink":"/root/a-glimpse-of-the-latest-growth/","noteIcon":""}
 ---
 
 

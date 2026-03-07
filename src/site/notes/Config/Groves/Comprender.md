@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/config/groves/comprender/","title":"CADAVRA: La Llave de Comprender","tags":["#grove"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/config/groves/comprender/","title":"CADAVRA: La Llave de Comprender","tags":["grove"],"noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/root/a-glimpse-of-the-latest-growth/","noteIcon":""}
+{"dg-publish":true,"permalink":"/root/a-glimpse-of-the-latest-growth/","title":"Esta es la prueba de cambio de título","noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/prisma-garden/nota-raiz/","title":"Esta es la nota raiz","tags":["gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/prisma-garden/nota-raiz/","title":"Esta es la nota raiz","tags":["clippings","2do","article","atomic","gardenEntry"],"noteIcon":""}
 ---
 
 
